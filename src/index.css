@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body{
+    background-image:url('./images/bg-header-desktop.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media(max-width:768px){
+   body{
+    background-image:url('./images/bg-header-mobile.png') ;
+    background-repeat: no-repeat;
+    background-size: contain;
+   }
+}
